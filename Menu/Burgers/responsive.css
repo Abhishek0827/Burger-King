@@ -1,0 +1,58 @@
+@media screen and (max-width: 1000px) {
+  nav {
+    flex-direction: column;
+  }
+  main {
+    position: relative;
+    top: 190px;
+  }
+  .row1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 400px) {
+  .search-bar {
+    width: 250px;
+  }
+  .enter {
+    width: 170px;
+  }
+  .search-bar button {
+    width: 70px;
+  }
+  .options {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 734px) {
+  .menu {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+  }
+  .row1 {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+  }
+
+}
+@media screen and (max-width:350px)
+{
+    
+    .image1 img{
+        width: 250px;
+    }
+    .option1{
+        width: 250px;
+        height: 200px;
+    }
+   .dis big{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .dis{
+    padding-left: 5px;
+   }
+}

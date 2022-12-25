@@ -1,0 +1,86 @@
+@media screen and (max-width: 1000px) {
+  nav {
+    flex-direction: column;
+  }
+  main {
+    position: relative;
+    top: 190px;
+  }
+  
+}
+@media screen and (max-width:900px) {
+  
+  .email form input{
+    width: 300px;
+  }
+  .password form input{
+    width: 300px;
+  }
+}
+@media screen and (max-width:766px){
+  
+  .email form input{
+    width: 250px;
+  }
+  .password form input{
+    width: 250px;
+  }
+}
+@media screen and (max-width:650px){
+  
+  .email form input{
+    width: 200px;
+    height: 20px;
+  }
+  .password form input{
+    width: 200px;
+    height: 20px;
+  }
+  .button{
+    flex-direction: column;
+    height: 40px;
+  }
+  .button button{
+    height: 20px;
+    width: 50px;    
+  }
+}
+@media screen and (max-width:525px){
+  
+  .email form input{
+    width: 150px;
+  }
+  .password form input{
+    width: 150px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .search-bar {
+    width: 250px;
+  }
+  .enter {
+    width: 170px;
+  }
+  .search-bar button {
+    width: 70px;
+  }
+  .options {
+    width: 250px;
+  }
+  .email form input{
+    width: 90px;
+    height: 10px;
+    font-size:small;
+  }
+  .password form input{
+    width: 90px;
+    height: 10px;
+    font-size:small;
+  }
+  .button a {
+    font-size:small;
+  }
+  .signup{
+    font-size:small;
+  }
+}

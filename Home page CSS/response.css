@@ -1,0 +1,47 @@
+@media screen and (max-width: 1000px) {
+  nav {
+    flex-direction: column;
+  }
+  .container {
+    transform: translateY(110px);
+  }
+  
+  /* main {
+    transform: translateY(120px);
+  } */
+}
+@media screen and (max-width: 734px) {
+  #img1 {
+    height: 150px;
+  }
+  .offer {
+    height: 150px;
+    border: 2px solid grey;
+  }
+
+  .list1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .offer2 a img {
+    height: 200px;
+  }
+  
+}
+@media screen and (max-width: 400px) {
+  .search-bar {
+    width: 250px;
+  }
+  .enter {
+    width: 170px;
+  }
+  .search-bar button {
+    width: 70px;
+  }
+  .options {
+    width: 250px;
+  }
+  .offer2 a img {
+    height: 100px;
+  }
+}
